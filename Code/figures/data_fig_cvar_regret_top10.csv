@@ -1,0 +1,23 @@
+model,run,normalized_regret,oracle_overlap,source,checkpoint,seed,score_type
+"GraphSAGE-
+ColdOD",ensemble,0.0364673892991866,0.7075471698113207,DCQHGT_DisruptionGate:REFERENCE,deduplicated_reference,reference,predicted_quantile_risk
+"HGT TruckRail+
+Topo",best-run,0.0380629540347048,0.6886792452830188,DCQHGT_TopologyV3:DCQHGT_TOPOLOGY_V3,best_val_q75,42,predicted_quantile_risk
+"HGT-
+ColdOD",ensemble/ref.,0.047351934773473,0.6792452830188679,DCQHGT_DisruptionGate:REFERENCE,deduplicated_reference,reference,predicted_quantile_risk
+"Zone-ID-only
+MLP",ensemble,0.0541982990190968,0.6320754716981132,StrategicBaselines,best_val_pinball,seed_ensemble,predicted_quantile_risk
+"STID-style
+ID MLP",ensemble,0.0571709846250497,0.6226415094339622,StrategicBaselines,best_val_q75,seed_ensemble,predicted_quantile_risk
+"Numeric MLP
+(no zone ID)",ensemble,0.0931872967338411,0.5943396226415094,StrategicBaselines,best_val_pinball,seed_ensemble,predicted_quantile_risk
+"ColdOD-
+MLP",reference,0.1330109936401716,0.4716981132075472,DCQHGT_DisruptionGate:REFERENCE,deduplicated_reference,reference,predicted_quantile_risk
+"Cold origin/
+dest prior",baseline,0.3241640117646079,0.330188679245283,StrategicBaselines,raw,prior,predicted_quantile_risk
+"Cold-prior
+q75 rank",heuristic,0.3362479636646877,0.330188679245283,StrategicRankBaselines,score_only,baseline,cold_prior_q75_rank
+"Random
+rank",heuristic,0.4271165674317995,0.100377358490566,StrategicRankBaselines,mean_100_runs,random,random
+"Demand-volume
+rank",heuristic,0.6274422807078998,0.0188679245283018,StrategicRankBaselines,score_only,baseline,demand_volume_rank

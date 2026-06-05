@@ -1,0 +1,12 @@
+group,model,pinball,source,checkpoint,seed
+Old baseline,ColdOD-MLP,205.9250561073772,DCQHGT_DisruptionGate:REFERENCE,deduplicated_reference,reference
+Strategic controls,"Numeric MLP
+(no zone ID)",179.17962741140337,StrategicBaselines,best_val_pinball,seed_ensemble
+Strategic controls,"STID-style
+ID MLP",186.5035212754499,StrategicBaselines,best_val_pinball,seed_ensemble
+Strategic controls,"Zone-ID-only
+MLP",194.1108274849128,StrategicBaselines,best_val_pinball,seed_ensemble
+Graph models,"GraphSAGE-
+ColdOD",130.80405338445473,DCQHGT_DisruptionGate:REFERENCE,deduplicated_reference,reference
+Graph models,"HGT-
+ColdOD",128.83005532647712,DCQHGT_DisruptionGate:REFERENCE,deduplicated_reference,reference
