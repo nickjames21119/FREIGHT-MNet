@@ -95,17 +95,6 @@ Run the notebooks in this order:
 Neural models are trained with five seeds `{7, 42, 123, 2026, 535}`;
 seed-ensemble predictions are reported where available.
 
-## Citation
-
-```bibtex
-@inproceedings{zhang2026freightmnet,
-  title     = {FREIGHT-MNet: A Public Multimodal Benchmark for Cold-Start Freight OD Travel-Time Risk},
-  author    = {Zhang, Yuteng and Banerjee, Ashis},
-  booktitle = {Proceedings of the IEEE International Conference on Data Mining (ICDM)},
-  year      = {2026}
-}
-```
-
 ## License and data sources
 
 Code is released under the MIT License (add a `LICENSE` file if you adopt it).
