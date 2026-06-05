@@ -11,13 +11,6 @@ transfer, sparse / high-risk slices, calibration diagnostics, and CVaR-style
 top-risk screening, together with a controlled family of historical, tabular,
 identity, graph, topology, and disruption predictors.
 
-This repository contains the data-collection pipeline, model code, and evaluation
-scripts for the paper:
-
-> Y. Zhang and A. Banerjee, "FREIGHT-MNet: A Public Multimodal Benchmark for
-> Cold-Start Freight OD Travel-Time Risk," IEEE International Conference on Data
-> Mining (ICDM), 2026 (Applied Track).
-
 ## Data
 
 All inputs are public. To download everything the benchmark needs, run:
